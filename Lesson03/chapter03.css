@@ -1,0 +1,13 @@
+.box1 {
+  width: 300px;               /* 表示する高さの指定 */
+  height: 300px;              /* 表示する横幅の指定 */
+  background-color: #FFFF00;  /* 背景色の指定 */
+  padding: 30px;              /* 余白の指定 */
+}
+
+.box2 {
+  width: 100px;              /* 表示する高さの指定 */
+  height: 100px;             /* 表示する横幅の指定 */
+  background-color: blue;    /* 背景色の指定 */
+  border: 5px solid yellow;  /* 枠線(border)の指定 */
+}
