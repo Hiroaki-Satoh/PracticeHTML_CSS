@@ -1,0 +1,62 @@
+/* ブラウザ特有のCSSを解除(リセット)するため */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/***********************************/
+
+/* clearfixの設定 */
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* ヘッダーの設定 */
+.header {
+	width: 100%;            /* 横幅の指定(横幅いっぱい) */
+	height: 50px;           /* 高さの指定 */
+	background-color: red;  /* 背景色の指定 */
+}
+
+/* メインヴィジュアルの設定 */
+.main-visual {
+	width: 100%;               /* 横幅の指定 */
+	height: 500px;             /* 高さの指定 */
+	background-color: orange;  /* 背景色の指定 */
+}
+
+/* メインの設定 */
+.main {
+	width: 960px;             /* 横幅の指定 */
+	background-color: green;  /* 背景色の指定 */
+	margin: 0 auto;           /* 中央寄せ */
+}
+
+.left-sidebar {
+  	width: 230px;                 /* 横幅の指定 */
+  	height: 1400px;               /* 高さの指定 */
+ 	background-color: palegreen;  /* 背景色 */
+  	float: left;                  /* 要素を左揃えで並べる */
+}
+
+.blog {
+	width: 500px;                 /* 横幅の指定 */
+	height: 1400px;               /* 高さの指定 */
+	background-color: limegreen;  /* 背景色 */
+	float: left;                  /* 要素を左揃えで並べる */
+}
+
+.right-sidebar {
+  	width: 230px;                 /* 横幅の指定 */
+  	height: 1400px;               /* 高さの指定 */
+ 	background-color: palegreen;  /* 背景色 */
+  	float: left;                  /* 要素を左揃えで並べる */
+}
+
+.footer {
+	width: 100%;             /* 横幅の指定 */
+	height: 100px;           /* 高さの指定 */
+	background-color: blue;  /* 背景色の指定 */
+}
