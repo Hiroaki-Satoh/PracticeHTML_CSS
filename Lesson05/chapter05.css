@@ -1,0 +1,146 @@
+/* ブラウザ特有のCSSを解除(リセット)するため */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/***********************************/
+
+/* clearfixを追加 */
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* ヘッダーの設定 */
+header {
+	width: 100%;         /* 横幅の指定 */
+	padding: 20px 0;     /* 余白(枠線の内側)の設定 [上下] [左右] */
+	margin: 0 auto;      /* 中央寄せ */
+	text-align: center;  /* テキストの行揃え(中央揃え) */
+}
+
+header .headline {
+	font-size: 32px; /* フォントサイズの指定 */
+}
+
+.nav-list {
+	/* 枠線の設定 */
+	border: solid #848282;
+	border-top-width: 1px;
+	border-right-width: 0;
+	border-bottom-width: 1px;
+	border-left-width: 0;
+	/************/
+	text-align: center; /* テキストの行揃え(中央揃え) */
+	padding: 15px 0;    /* 余白(枠線の内側)の設定 [上下] [左右] */
+	margin: 0 auto;     /* 中央揃え */
+}
+
+.nav-list-item {
+	list-style: none;      /* 箇条書きリストの行頭スタイルの指定(今回はマーク無し) */
+	display: inline-block; /* 表示形式の指定 */
+	margin: 0 20px;        /* 余白(枠線の外側)の設定 [上下] [左右] */
+}
+
+.main {
+	width: 800px;       /* 横幅の指定 */
+	margin: 50px auto;  /* 上下 50px 中央揃え */
+}
+
+.box1 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #E6FFE9;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box2 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #CBFFD3;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box3 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #AEFFBD;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box4 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #93FFAB;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box5 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #F3FFD8;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box6 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #EDFFBE;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box7 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #E9FFA5;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box8 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #E4FF8D;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box9 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #D9E5FF;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box10 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #BAD3FF;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box11 {
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #A4C6FF;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+.box12{
+	width: 200px;               /* 横幅の指定 */
+	height: 200px;              /* 高さの指定 */
+	background-color: #8EB8FF;  /* 背景色の指定 */
+	float: left;                /* 左揃え */
+}
+
+footer {
+	width: 100%;               /* 横幅の指定 */
+	height: 120px;             /* 高さの指定 */
+	text-align: center;        /* テキスト行揃え(中央揃え) */
+	padding: 50px 0;           /* 余白(枠線の内側)の設定 [上下] [左右] */
+	background-color: #848282; /* 背景色の指定 */
+}
+
+.footer-text {
+	color: #FFFFFF; /* テキストの色の指定 */
+}
