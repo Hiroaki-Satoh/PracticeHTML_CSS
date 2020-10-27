@@ -1,0 +1,35 @@
+/* ブラウザ特有のCSSを解除(リセット)するため */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/***********************************/
+
+.box1 {
+	height: 200px;                        /* 高さの指定 */
+	background-image: url(img/box1.jpg);  /* 背景画像の指定 */
+	background-size: cover;               /* 縦横の比を維持したまま背景領域を埋め尽くす */
+	background-position: center;          /* 背景画像を中央に配置 */
+}
+
+.box2 {
+	height: 200px;                        /* 高さの指定 */
+	background-image: url(img/box2.jpg);  /* 背景画像の指定 */
+	background-size: cover;               /* 縦横の比を維持したまま背景領域を埋め尽くす */
+	background-position: center;          /* 背景画像を中央に配置 */
+}
+
+.box3 {
+	height: 200px;                        /* 高さの指定 */
+	background-image: url(img/box3.jpg);  /* 背景画像の指定 */
+	background-size: cover;               /* 縦横の比を維持したまま背景領域を埋め尽くす */
+	background-position: center;          /* 背景画像を中央に配置 */
+}
+
+.box4 {
+	height: 200px;                        /* 高さの指定 */
+	background-image: url(img/box4.jpg);  /* 背景画像の指定 */
+	background-size: cover;               /* 縦横の比を維持したまま背景領域を埋め尽くす */
+	background-position: center;          /* 背景画像を中央に配置 */
+}
